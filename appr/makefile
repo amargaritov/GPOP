@@ -11,8 +11,8 @@ endif
 
 
 CC      = g++
-CPPFLAGS= -O3 -c -std=c++11 -fopenmp -mavx -w $(INTE) $(INTV)
-LDFLAGS = -fopenmp -m64 -lpthread 
+CPPFLAGS= -O3 -c -std=c++11 -fopenmp -w $(INTE) $(INTV)
+LDFLAGS = -fopenmp -lpthread 
 SOURCES = nibble.cpp 
 OBJECTS = $(SOURCES:.cpp=.o)
 

@@ -15,7 +15,7 @@
 #include <stdlib.h>
 #include <omp.h>
 #include <atomic>
-#include <boost/dynamic_bitset.hpp>
+//#include <boost/dynamic_bitset.hpp>
 
 #if defined (HUGE_EDGE) || defined (HUGE_VERTEX)
 typedef unsigned long long int intE;

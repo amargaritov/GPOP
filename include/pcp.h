@@ -21,7 +21,7 @@
 #include <omp.h>
 #include <assert.h>
 #include <string.h>
-#include <immintrin.h>
+//#include <immintrin.h>
 #include "../include/gas.h"
 
 intV binWidth = (256*1024)/sizeof(float); //512kB
